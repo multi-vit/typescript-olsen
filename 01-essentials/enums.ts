@@ -1,3 +1,6 @@
+// Enums are not an extension of JavaScript - this is unique to TypeScript!
+// Enums are used to create sets of constants for use with variables and properties
+
 enum Color {
   R = 1,
   G,
