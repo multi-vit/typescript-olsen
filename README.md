@@ -29,3 +29,11 @@ yarn tsc --target es2015 <fileName.ts>
 ```
 
 ES6 (ES2015) is supported by all modern browsers, but you should compile to the most recent version we know can be supported.
+
+### Configuration
+
+You can provide a [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) file, normally in the root folder of your project, to configure compiler options for batch processing of files. In it, you can include/exclude files and specify options.
+
+If you run `tsc` without providing a filename, it will consult the `tsconfig.json` file and compile according to it.
+
+Most tool sets will generate these automatically for you if you specify you are using TypeScript (e.g. create-react-app)
