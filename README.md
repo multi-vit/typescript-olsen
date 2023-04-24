@@ -21,3 +21,11 @@ Then run the emitted JavaScript file:
 ```
 node <fileName.js>
 ```
+
+By default, the TypeScript compiler generates ES3 code for maximum compatibility. You can generate a specific version of ECMAScript using the --target option:
+
+```
+yarn tsc --target es2015 <fileName.ts>
+```
+
+ES6 (ES2015) is supported by all modern browsers, but you should compile to the most recent version we know can be supported.
