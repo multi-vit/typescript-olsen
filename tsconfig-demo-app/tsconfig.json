@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5", // Outputs ES5 JS files
+    "lib": ["dom", "dom.iterable", "esnext"],
+    // Which predefined type definition libraries to include
+    // e.g. Dom typees for browser elements
+    "allowJs": true, // Allows JS files to be imported to projec,t instead of just .ts/.tsx files
+    "skipLibCheck": true, // Skip type checking of declaration files (saves compilation time at expense of type-system accuracy)
+    "esModuleInterop": true, // Stops TS treating CommonJS modules same as ES6 modules for greater error checking
+    "allowSyntheticDefaultImports": true, // Allowed as a result of esModuleInterOp. import React from "react" when there is no default export
+    "strict": true, // Doesn't allow any, null or undefined
+    "forceConsistentCasingInFileNames": true, // Makes TS follow the case sensitivity rules of the file system it's running on
+    "noFallthroughCasesInSwitch": true, // Ensures any non-empty case inside a switch statements includes either break or return
+    "module": "esnext", // Set the module system for the program. e.g. "CommonJS"
+    "moduleResolution": "node", // Set the module resolution strategy. e.g. "node' for CommonJS implementation
+    "resolveJsonModule": true, // Allows importing modules with .json extension which is common in node projects
+    "isolatedModules": true, // Tells TS to warn you if you write code that can't be correctly interpreted by a single-file transpilation process (e.g. by 3rd party like Babel)
+    "noEmit": true, // Don't output files if there are errors
+    "jsx": "react-jsx" // Controls how JSX is emitted in JS files
+  },
+  "include": ["src"] // Files to include
+}
