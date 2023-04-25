@@ -3,6 +3,9 @@
 // Define members using familiar OO syntax
 
 class Employee {
+  // TypeScript will demand these are initialised (see definiteAssignment.ts)
+  // You can't just declare and type them like this:
+  // name: string;
   name = "";
   salary = -1;
 }
