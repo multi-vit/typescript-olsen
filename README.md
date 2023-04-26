@@ -48,6 +48,10 @@ If you run `tsc` without providing a filename, it will consult the `tsconfig.jso
 
 Most tool sets will generate these automatically for you if you specify you are using TypeScript (e.g. create-react-app)
 
+## Learning
+
+Most of the specific learning is documented through the files, with each file named appropriately to what it deals with. General learning is included below.
+
 ### Migrating to TypeScript from JavaScript
 
 The TypeScript compiler allows you compile existing JavaScript code. The absence of type information isn't a problem, but the compiler won't do any type checking for you. However, it will pick up on bad function calls so it's still a good place to start. You can then begin to add types.
