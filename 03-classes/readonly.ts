@@ -15,3 +15,5 @@ console.log(myCircle.radius);
 
 // This won't work:
 // myCircle.radius = 42;
+
+// You could have a manual "writeonly" property (for things like passwords) by defining a private property with a setter and no getter
