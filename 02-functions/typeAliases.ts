@@ -2,7 +2,8 @@
 // Improves code readability, consistency and maintainability
 // Also allows reusability
 // Use a capital letter for type alias names
-// Also see interfaces, later in the course
+// Also see interfaces in 04-inheritance-and-interfaces/interfaceProperties.ts
+// Almost the same but type aliases CANNOT be extended once they are initialised (whereas Interfaces can)
 
 // Using Loc as location is already defined in TypeScript node_modules
 type Loc = { longitude: number; latitude: number; population?: number };
