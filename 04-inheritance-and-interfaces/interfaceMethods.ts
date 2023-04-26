@@ -2,6 +2,9 @@
 
 // Capitalise the interface name (Pascal Case)
 interface Loggable {
+  // Anything of Loggable type MUST have a method called "log"
+  // That takes in a msg parameter of type string
+  // And returns nothings
   log(msg: string): void;
 }
 
