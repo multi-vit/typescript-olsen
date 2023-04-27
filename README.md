@@ -18,7 +18,7 @@ TypeScript files cannot be read at runtime, they must first be transpiled into J
 yarn tsc <fileName.ts>
 ```
 
-**N.B.** You don't need the `yarn` command if you used npm or installed TypeScript globally
+**N.B.** You don't need the `yarn` command if you installed TypeScript globally. If you used npm, you may need to run `npx tsc <fileName.ts>`
 
 This creates a JavaScript file with the same name, which you can then run:
 
